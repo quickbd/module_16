@@ -1,6 +1,6 @@
 DB_URI = "mongodb://127.0.0.1:27017/next-auth";
 
-API = "http://localhost:3000/api";
+API = "https://module-16.vercel.app/api";
 
 //mongo pass Vl3LTL5l9gMqToGw; mongodb+srv://hzamil:YgmOqyyk2DaWYmcK@nextauth.cl715ek.mongodb.net
 

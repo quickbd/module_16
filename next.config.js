@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   //images: [],
   env: {
-    BASE_URL: "http://localhost:3000/",
+    BASE_URL: "https://module-16.vercel.app/",
     API_URL: "https://agency.teamrabbil.com/",
     DB_URI: config.DB_URI,
     API: config.API,
