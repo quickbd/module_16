@@ -17,7 +17,7 @@ const Team = async () => {
                 {data.map((item, i) => {
                   return (
                     <div key={i} className="mb-6 w-full  px-4">
-                      <div className="flex flex-wrap items-center bg-white rounded shadow overflow-hidden">
+                      <div className="flex flex-wrap items-center text-center bg-white rounded-[16px] shadow overflow-hidden">
                         <img
                           className="w-full h-80 object-cover"
                           src={item["image"]}

@@ -1,6 +1,7 @@
 export async function generateMetadata() {
   const res = await fetch(`${process.env.API_URL}api/SiteMeta/team`);
   const JSON = await res.json();
+  if (!JSON.ok) return false;
   return {
     title: JSON[0]["title"],
     description: JSON[0]["description"],
