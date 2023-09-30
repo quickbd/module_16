@@ -1,11 +1,4 @@
 "use client";
-export async function generateMetadata() {
-  return {
-    title: "About Us",
-    keyword: "about us",
-    description: "Md. Hasanat Zamil, Project manager",
-  };
-}
 
 export default function about(param) {
   return (
