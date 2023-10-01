@@ -1,7 +1,8 @@
 "use client";
+import getStatList from "@/lib/getStatList";
 import { FaPerbyte, FaRegSmile, FaRegThumbsUp, FaUsers } from "react-icons/fa";
-
-const Counterup = () => {
+const StatList = async () => {
+  const data = await getStatList();
   return (
     <section>
       <div className="container grid grid-rows-1 grid-cols-4 gap-5 my-5">
@@ -10,7 +11,7 @@ const Counterup = () => {
             <FaUsers />
           </div>
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            240452
+            {data.followers ?? ""}
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
             Followers
@@ -22,7 +23,7 @@ const Counterup = () => {
             <FaRegThumbsUp />
           </div>
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            6300
+            {data.solved ?? ""}
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
             Solved Probles
@@ -34,7 +35,7 @@ const Counterup = () => {
             <FaRegSmile />
           </div>
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            25000
+            {data.customers ?? ""}
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
             Happy Customers
@@ -46,7 +47,7 @@ const Counterup = () => {
             <FaPerbyte />
           </div>
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            360452
+            {data.projects ?? ""}
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
             Projects
@@ -57,4 +58,4 @@ const Counterup = () => {
   );
 };
 
-export default Counterup;
+export default StatList;

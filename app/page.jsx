@@ -1,6 +1,6 @@
-import Counterup from "@/components/Counterup";
 import Featured_project from "@/components/Featured_project";
 import Hero_banner from "@/components/Hero_banner";
+import StatList from "@/components/StatList";
 import Work_list from "@/components/Work_list";
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <Hero_banner />
 
       <Work_list />
-      <Counterup />
+      <StatList />
       <Featured_project />
     </main>
   );
