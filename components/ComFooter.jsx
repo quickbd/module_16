@@ -5,8 +5,7 @@ import Link from "next/link";
 const ComFooter = () => {
   return (
     <div>
-      {/* Newsletter sign-up form */}
-      <div className="container px-6 py-12">
+      <div className="container px-6 py-20">
         <form action>
           <div className=" items-center justify-place-content-center text-center  ">
             <div className="md:mb-6 md:ml-auto">
@@ -18,19 +17,19 @@ const ComFooter = () => {
                 do
               </small>
             </div>
-            {/* Newsletter sign-up input field */}
-            <div className="  md:mb-6  w-full  md:w-1/3 m-auto ">
-              <div className="  mb-4 flex flex-wrap w-full justify-center border-2  rounded-5 border-cyan-50 p-2">
+
+            <div className=" flex justify-center items-center flex-col ">
+              <div className="flex items-center border border-black rounded-xl p-1">
                 <input
                   type="text"
-                  className=""
-                  placeholder="Enter Your Email Address"
+                  className="appearance-none bg-transparent border-none w-24 md:w-96
+             text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                  placeholder="Enter Your Email Adress"
                 />
                 <button
-                  className="inline-block rounded-5 bg-[#FB8C00] px-6 pb-2 pt-2.5 text-xs font-medium uppercase 
-                  leading-normal text-white  transition duration-150 ease-in-out hover:bg-orange-600  
-                  focus:z-[3] focus:bg-orange-600 "
                   type="button"
+                  className="flex flex-row border-green-500 bg-green-500 items-center gap-1 py-1 px-2 md:py-3 md:px-5 border-2
+             bg-sec rounded-xl text-base md:text-lg text-white hover:bg-green-600 focus:outline-none focus:shadow-outline"
                 >
                   Subscribe
                 </button>
