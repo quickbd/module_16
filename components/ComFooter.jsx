@@ -44,8 +44,8 @@ const ComFooter = () => {
           {/* Copyright information */}
 
           {/* Links section */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-            <div className="mb-6 text-left ">
+          <div className="md:flex md:justify-between ">
+            <div className="mb-6 text-left md:w-1/3 w-full">
               <Link href="/">
                 <Image
                   src={footerlogo}
@@ -54,7 +54,7 @@ const ComFooter = () => {
                   style={{ width: "auto" }} // optional
                 />
               </Link>
-              <p>
+              <p className="text-thin">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
                 distinctio earum repellat quaerat voluptatibus placeat nam,
                 commodi optio pariatur est quia magnam eum harum corrupti dicta,
