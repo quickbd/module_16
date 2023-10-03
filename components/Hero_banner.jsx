@@ -26,33 +26,33 @@ const Hero_banner = async () => {
             <div className="mx-auto ">
               <div className="flex flex-wrap">
                 <div className="flex w-full flex-wrap">
-                  <div className="w-1/3 p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      className="block h-full w-full rounded-lg object-cover object-center"
-                      src={data.image1 ?? ""}
-                    />
-                  </div>
                   <div className="w-2/3 p-1 md:p-2">
                     <img
                       alt="gallery"
-                      className="block h-full w-full rounded-lg object-cover object-center"
+                      className="block h-full w-full max-h-[270px] rounded-lg object-cover object-center"
+                      src={data.image1 ?? ""}
+                    />
+                  </div>
+                  <div className="w-1/3 p-1 md:p-2">
+                    <img
+                      alt="gallery"
+                      className="block h-full w-full  max-h-[270px] rounded-lg object-cover object-center"
                       src={data.image2 ?? ""}
                     />
                   </div>
                 </div>
                 <div className="flex w-full flex-wrap">
-                  <div className="w-2/3 p-1 md:p-2">
-                    <img
-                      alt="gallery"
-                      className="block h-full w-full rounded-lg object-cover object-center"
-                      src={data.image3 ?? ""}
-                    />
-                  </div>
                   <div className="w-1/3 p-1 md:p-2">
                     <img
                       alt="gallery"
-                      className="block h-full  w-full rounded-lg object-cover object-center"
+                      className="block h-full w-full  max-h-[164px] rounded-lg object-cover object-center"
+                      src={data.image3 ?? ""}
+                    />
+                  </div>
+                  <div className="w-2/3 p-1 md:p-2">
+                    <img
+                      alt="gallery"
+                      className="block h-full  w-full  max-h-[164px] rounded-lg object-cover object-center"
                       src={data.image4 ?? ""}
                     />
                   </div>
