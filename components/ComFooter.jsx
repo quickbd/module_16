@@ -54,7 +54,7 @@ const ComFooter = () => {
                   style={{ width: "auto" }} // optional
                 />
               </Link>
-              <p className="text-thin">
+              <p className="font-thin">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
                 distinctio earum repellat quaerat voluptatibus placeat nam,
                 commodi optio pariatur est quia magnam eum harum corrupti dicta,
