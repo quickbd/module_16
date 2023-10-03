@@ -5,7 +5,7 @@ import Brands from "./Brands";
 const Hero_banner = async () => {
   const data = await getHeroList();
   return (
-    <div className="w-full bg-[#F5F5F5] ">
+    <div className="w-full bg-[#D7F5DC] ">
       <div className="container   pt-32   text-neutral-800 dark:bg-neutral-700 dark:text-neutral-200">
         <div className="grid  md:grid-cols-2 grid-cols-1  gap-4">
           <div className="text-left">

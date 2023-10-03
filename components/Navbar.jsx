@@ -74,9 +74,9 @@ const Navbar = () => {
           </li> */}
           <li className="p-4">
             <Link
-              className="bg-indigo-50 outline-none border border-indigo-100 rounded-[12px] text-indigo-500
-               font-medium active:scale-95 hover:bg-indigo-400 hover:text-white focus:ring-2
-                focus:ring-indigo-600 focus:ring-offset-2 disabled:bg-gray-400/80 disabled:shadow-none 
+              className="bg-transparent outline-none border border-indigo-100 rounded-[12px] text-black-500
+               font-medium active:scale-95 hover:bg-green-400 hover:text-black-500 focus:ring-2
+                focus:ring-green-600 focus:ring-offset-2 disabled:bg-green-400/80 disabled:shadow-none 
                 disabled:cursor-not-allowed transition-colors duration-200 px-4 py-2"
               href="/login"
             >

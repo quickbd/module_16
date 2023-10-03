@@ -4,7 +4,7 @@ const Brands = async () => {
   const clientImage = await getBrandList();
 
   return (
-    <div className="w-full bg-[#F5F5F5]">
+    <div className="w-full bg-[#D7F5DC]">
       <div className="w-full bg-white my-5">
         <div className="container flex m-auto gap-10 justify-center">
           {clientImage.map((client, index) => (
